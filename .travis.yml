@@ -1,15 +1,11 @@
-dist: trusty
+dist: xenial
 language: python
 python:
   - "3.4"
   - "3.5"
   - "3.6"
-jobs:
-  include:
-    - name: "Python 3.7.4 on macOS"
-      os: osx
-      osx_image: xcode11.2
-      language: shell
+  - "3.7"
+  - "3.8"
 addons:
   sonarcloud:
     organization: "lucasmaliszewski"
