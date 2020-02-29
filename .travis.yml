@@ -27,5 +27,5 @@ install:
   - pip3 install pytest
   - pip3 install --upgrade pip
 script:
-  - pytest
+#  - pytest
   - sonar-scanner
