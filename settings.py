@@ -1,0 +1,1 @@
+STORGE="settings.json"
