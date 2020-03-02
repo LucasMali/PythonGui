@@ -10,7 +10,7 @@ def save(url):
     try:
         with open(settings.STORGE, 'r+') as json_file:
             data = json_file.read()
-    except IOError as e:
+    except IOError:
         print("File doesn't exists, we'll create it.")
 
     try:
@@ -25,7 +25,7 @@ def save(url):
 
 save(
     {
-        'url': 'http://test2/com',
+        'url': 'https://test2/com',
         'name': 'test2'
     }
 )

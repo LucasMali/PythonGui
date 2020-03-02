@@ -37,7 +37,7 @@ class RollTheDice:
 
 def main():
     root = Tk()
-    app = RollTheDice(root)
+    RollTheDice(root)
     root.mainloop()
 
 
